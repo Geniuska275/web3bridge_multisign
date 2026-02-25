@@ -38,9 +38,7 @@ describe("MultiSigWallet", function () {
     expect(balance).to.equal(ethers.parseEther("1"));
   });
 
-  /*//////////////////////////////////////////////////////////////
-                      SUBMIT TRANSACTION
-  //////////////////////////////////////////////////////////////*/
+  
 
   it("Owner can submit transaction", async function () {
     await wallet.connect(owner1)
