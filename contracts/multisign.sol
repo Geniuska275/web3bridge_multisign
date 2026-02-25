@@ -98,7 +98,6 @@ contract MultiSigWallet {
 
         emit ApproveTransaction(msg.sender, _txId);
     }
-
    
 
     function executeTransaction(uint256 _txId)

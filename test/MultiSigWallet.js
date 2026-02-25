@@ -54,9 +54,6 @@ describe("MultiSigWallet", function () {
     ).to.be.revertedWith("Not owner");
   });
 
-  /*//////////////////////////////////////////////////////////////
-                  EXECUTION NEEDS 3 APPROVALS
-  //////////////////////////////////////////////////////////////*/
 
   it("Cannot execute with less than 3 approvals", async function () {
 
@@ -79,9 +76,6 @@ describe("MultiSigWallet", function () {
     ).to.be.revertedWith("Need 3 approvals");
   });
 
-  /*//////////////////////////////////////////////////////////////
-                      FULL EXECUTION FLOW
-  //////////////////////////////////////////////////////////////*/
 
   it("Executes after 3 approvals", async function () {
 
