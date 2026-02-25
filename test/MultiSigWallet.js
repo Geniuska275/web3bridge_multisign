@@ -107,7 +107,6 @@ describe("MultiSigWallet", function () {
   });
 
 
-
   it("Owner cannot approve twice", async function () {
 
     await wallet.connect(owner1)
